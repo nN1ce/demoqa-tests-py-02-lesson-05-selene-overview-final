@@ -9,7 +9,7 @@ from demoqa_tests.model import app
 def test_submit_user_details():
     app.given_opened_text_box_page()
 
-    browser.should(have.title('ToolsQA'))
+    browser.should(have.title('ToolsQA1'))
     browser.element('.main-header').should(have.text('Text Box'))
     browser.element(by.text('Text Box')).should(be.visible)
 
